@@ -10,7 +10,7 @@
 // });
 
 const boundaries = Array.from(document.querySelectorAll(".boundary"));
-// console.log(boundaries);
+console.log(boundaries);
 const boundaryCardPairs = new Map();
 boundaries.forEach((boundary) => {
     boundaryCardPairs.set(boundary, boundary.nextElementSibling);
@@ -19,9 +19,9 @@ boundaries.forEach((boundary) => {
 
 const observer = new IntersectionObserver((cards) => {
     cards.forEach((card) => {
-        // console.log(card);
-        // console.log(card.isIntersecting);
-        // console.log(boundaryCardPairs.get(card.target));
+        console.log(card);
+        console.log(card.isIntersecting);
+        console.log(boundaryCardPairs.get(card.target));
         !card.isIntersecting ? boundaryCardPairs.get(card.target).classList.add("hidden") : boundaryCardPairs.get(card.target).classList.remove("hidden");
     });
 });
