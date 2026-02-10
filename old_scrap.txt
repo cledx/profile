@@ -1,0 +1,16 @@
+<div class="col-2 bg-dark bg-opacity-50 h-100 border-top border-3 border-opacity-50 border-black p-3" id="menu">
+                <div class="row">
+                    <div class="col-12 my-3">
+                        <i class="fa-solid fa-bars menu-icon"></i>
+                    </div>
+                    <div class="col-12 my-3">
+                        <i class="fa-solid fa-bars menu-icon"></i>
+                    </div>
+                    <div class="col-12 my-3">
+                        <i class="fa-solid fa-bars menu-icon"></i>
+                    </div>
+                    <div class="col-12 my-3">
+                        <i class="fa-solid fa-bars menu-icon"></i>
+                    </div>
+                </div>
+</div>

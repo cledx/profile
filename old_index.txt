@@ -1,0 +1,53 @@
+<div class="container">
+    <div class="card-purple boundary"></div>
+    <div class="card-purple">
+        <h1>Carlos Ledoux: Junior Dev</h1>
+        <img src="images/253059767.png" alt="My face, smiling, with red lanterns in the background" width="200"
+            height="200" class="profile-picture">
+        <h2>Welcome to my introduction page</h2>
+        <p>I'm am junior developer with knowledge of frontend and backend languages. I've got a penchant for
+            learning and
+            trying new things, and I'm ready to hit the ground running on a new project. I'm excited to get into the
+            industry and start working on projects with likeminded teams and companies.</p>
+        <a href="https://kitt.lewagon.com/alumni/cledx" class="btn btn-link">Check me out on LeWagon</a>
+    </div>
+    <div class="card-purple boundary"></div>
+    <div class="card-purple">
+        <h2>Experience</h2>
+        <p>I've been in Japan for about 3 years now and I've been teaching English. I originally went to school for
+            Computer Science a long time ago, however I never pursed it. Now I'm looking to get back into the field.
+            As such I'm currently enrolled in the LeWagon Coding Camp set to graduate in March and I am excited to
+            put these newfound skills to use.</p>
+    </div>
+    <div class="card-purple boundary"></div>
+    <div class="card-purple">
+        <h2>Hobbies</h2>
+        <p>I'm an avid reader and gamer. I enjoy science fiction novels and games and I am a big fan of tabletop
+            board games. When the weather permits, I like to go to the beach and grill or go to the mountains and
+            snowboard.</p>
+    </div>
+    <div class="card-purple boundary"></div>
+    <div class="card-purple">
+        <h2>Languages and Skills</h2>
+        <ul>
+            <li>AWS Cloud Practitioner Certified</li>
+            <li>Ruby, JS, SQL Databases, HTML, CSS</li>
+            <li>Studying: Japanese</li>
+            <li>Basic Understanding: German</li>
+        </ul>
+    </div>
+    <div class="card-purple boundary"></div>
+    <div class="card-purple">
+        <h2>Follow Me</h2>
+        <ul class="list-inline">
+            <li><a href="https://github.com/cledx" target="_blank">
+                    <i class="fa-brands fa-square-github"></i>
+                </a>
+            </li>
+            <li><a href="http://www.linkedin.com/in/carlos-ledoux" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+.profile {
+  height: 100%;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  gap: 8px;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.profile .cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  border-radius: 8px;
+}
+
+#profile-pic {
+  width: 400px;
+  border-radius: 100%;
+}
