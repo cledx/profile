@@ -3,26 +3,25 @@ const normalBtn = document.getElementById("normal");
 const fancyBtn = document.getElementById("fancy");
 const pageContent = document.getElementById("page-content");
 
-const boundaries = Array.from(document.querySelectorAll(".boundary"));
-console.log(boundaries);
-const boundaryCardPairs = new Map();
-boundaries.forEach((boundary) => {
-    boundaryCardPairs.set(boundary, boundary.nextElementSibling);
-})
-// console.log(boundaryCardPairs);
+// const boundaries = Array.from(document.querySelectorAll(".boundary"));
+// const boundaryCardPairs = new Map();
+// boundaries.forEach((boundary) => {
+//     boundaryCardPairs.set(boundary, boundary.nextElementSibling);
+// })
+// // console.log(boundaryCardPairs);
 
-const observer = new IntersectionObserver((cards) => {
-    cards.forEach((card) => {
-        console.log(card);
-        console.log(card.isIntersecting);
-        console.log(boundaryCardPairs.get(card.target));
-        !card.isIntersecting ? boundaryCardPairs.get(card.target).classList.add("hidden") : boundaryCardPairs.get(card.target).classList.remove("hidden");
-    });
-});
+// const observer = new IntersectionObserver((cards) => {
+//     cards.forEach((card) => {
+//         console.log(card);
+//         console.log(card.isIntersecting);
+//         console.log(boundaryCardPairs.get(card.target));
+//         !card.isIntersecting ? boundaryCardPairs.get(card.target).classList.add("hidden") : boundaryCardPairs.get(card.target).classList.remove("hidden");
+//     });
+// });
 
-document.querySelectorAll(".boundary").forEach((card) => {
-    observer.observe(card);
-});
+// document.querySelectorAll(".boundary").forEach((card) => {
+//     observer.observe(card);
+// });
 
 const changeHTML = (event, type) => {
     event.preventDefault();
