@@ -1,12 +1,15 @@
 import React from "react";
-import { Header, Footer, About } from "./components/Index.jsx";
+import { Header, Footer, About, Projects } from "./components/Index.jsx";
+import "./stylesheets/application.scss";
 
 const App = () => {
   return (
     <>
       <Header />
-      <About />
-      <Projects />
+      <div className="p-5">
+        <About />
+        <Projects />
+      </div>
       <Footer />
     </>
   );

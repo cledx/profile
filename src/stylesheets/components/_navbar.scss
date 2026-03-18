@@ -1,0 +1,22 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  background: #3f335f;
+  color: white;
+
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+
+  .navbar-brand img {
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .nav-link {
+    color: white;
+  }
+
+  .navbar-brand-text {
+    color: white;
+  }
+}

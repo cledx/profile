@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Personal Portfolio Website",
+        "description": "A responsive portfolio website to showcase projects, built with React and Bootstrap.",
+        "technologies": [
+            "React",
+            "Bootstrap",
+            "CSS"
+        ],
+        "image": "/src/images/profile.png",
+        "demoUrl": "https://yourdemo.com/portfolio",
+        "repoUrl": "https://github.com/user/portfolio"
+    },
+    {
+        "title": "Personal Portfolio Website 2",
+        "description": "A responsive portfolio website to showcase projects, built with React and Bootstrap.",
+        "technologies": [
+            "React",
+            "Bootstrap",
+            "CSS"
+        ],
+        "image": "/src/images/profile.png",
+        "demoUrl": "https://yourdemo.com/portfolio",
+        "repoUrl": "https://github.com/user/portfolio"
+    },
+    {
+        "title": "Personal Portfolio Website 3",
+        "description": "A responsive portfolio website to showcase projects, built with React and Bootstrap.",
+        "technologies": [
+            "React",
+            "Bootstrap",
+            "CSS"
+        ],
+        "image": "/src/images/profile.png",
+        "demoUrl": "https://yourdemo.com/portfolio",
+        "repoUrl": "https://github.com/user/portfolio"
+    }
+]
