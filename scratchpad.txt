@@ -1,0 +1,13 @@
+<>
+      <Header />
+    </>
+
+    import Header from "./components/layout/header";
+
+const App = () => {
+  return (
+    <h1>Hi, Test</h1>
+  );
+};
+
+export default App;
