@@ -1,34 +1,28 @@
-- name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
+- name: Forkcast
+  description: Forkcast is a meal planning web app designed to make weekly cooking simple and stress-free. Users save their ingredient preferences and dietary restrictions, create weekly meals based on portions, and generate shopping lists automatically. Whether you're cooking for one or feeding a family, Forkcast helps you spend less time deciding what to eat and more time enjoying it. Built with Ruby on Rails using Hotwire, AJAX, SweetAlert modals, and Sortable. It's a fast, modern, and easy-to-use tool for everyday meal prep.
+  image: projects/forkcast.jpeg
+  url: https://www.reciplan.com
+  github: https://www.github.com/cledx/Forkcast
   online: true
 
-- name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
+- name: A&D
+  description: A&D is an AI-driven, text-based RPG built with Ruby on Rails. Inspired by classic Dungeons & Dragons and choose-your-own-adventure (CYOA) games, it immerses players in interactive, dynamic storytelling powered by artificial intelligence. Craft your own story, make impactful decisions, and experience adventures that adapt to your choices in a nostalgic, modern web app.
+  image: projects/a_n_d.png
+  url: https://a-n-d-6c853770e414.herokuapp.com/
+  github: https://www.github.com/cledx/a_n_d
   online: true
 
-- name: AI Assistant
-  description: Decent description of the app
-  image: projects/placeholder.png
+- name: Apex Estate Sales
+  description: Apex Estate Sales is a full-stack web app built with Ruby on Rails and React. It allows managers to create and manage estate sales listings, and customer to browse and participate in sales. It's a fast, modern, and easy-to-use tool for a Texas-based estate sales company.
+  image: projects/apex.png
   url: https://www.google.com
-  github: https://www.github.com
+  github: https://www.github.com/cledx/apex
   online: true
 
-- name: Final project
-  description: Decent description of the app
-  image: projects/placeholder.png
+- name: Spongebob Race
+  description: A simple web app built in with HTML and JavaScript. It's a fun and simple game that allows you and up to 3 friends to race against Spongebob.
+  image: projects/spongebob.png
   url: https://www.google.com
-  github: https://www.github.com
-  online: true
-
-- name: Yelp
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
+  github: https://www.github.com/cledx/wagon_race
   online: false
+
