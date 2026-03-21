@@ -17,7 +17,7 @@
   image: projects/apex.png
   url: https://www.google.com
   github: https://www.github.com/cledx/apex
-  online: true
+  online: false
 
 - name: Spongebob Race
   description: A simple web app built in with HTML and JavaScript. It's a fun and simple game that allows you and up to 3 friends to race against Spongebob.
